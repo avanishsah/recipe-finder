@@ -1,52 +1,89 @@
-# recipe-finder
+# Recipe Finder App 
+A beautiful, functional web application for discovering and saving your favorite recipes.
 
-It's a create react app
-![image](https://github.com/user-attachments/assets/946b24f3-2ad0-429f-bb6d-a2d4355d67e4)
+##  Getting Started
 
-# Part 1 
-Search Feature
-![image](https://github.com/user-attachments/assets/9ec1add8-5b47-4934-af47-915436534a00)
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/recipe-finder.git
+   cd recipe-finder
+   ```
+2. **Install dependencies**
 
-Since I've set the default search here to 'veg,' it's showing vegetarian food items </br>
-Search bar and Search Button 
-![image](https://github.com/user-attachments/assets/aef191a4-4f14-45dd-bb15-e8a0bd810203)
+  ```bash
+  npm install
+  Run the development server
+```
+3. **Run the development server**
+  ```bash
+  npm start
+```
 
-When searching for 'paneer,' it shows paneer dishes like matar paneer </br>
-Search result into clean grid
-For each image it's shows name , image , category and Area </br>
-![image](https://github.com/user-attachments/assets/be420b46-db5a-4ec9-80f4-60d3bf257720)
+4. **Open in browser**
+```text
+http://localhost:3000
+````
+##  Features
 
-Loading Screen showing loading screen
-![image](https://github.com/user-attachments/assets/1f32e8c0-edb2-4cf7-bed9-4e484d176bef)
+###  **Search & Discover**
+- Instant search with live results
+- Clean grid display with recipe cards
+- Mobile-responsive design
+- Loading states and empty result handling
 
-Clean and responsive and usable on a mobile-sized screen
-![Screenshot 2025-06-29 122725](https://github.com/user-attachments/assets/d54c8f3e-cca5-4cd2-b4dc-9565fa8e614f)
+![Search Features](https://github.com/user-attachments/assets/aef191a4-4f14-45dd-bb15-e8a0bd810203)
+*Default veg search results*
 
-No result found case
-![image](https://github.com/user-attachments/assets/c565c01f-309a-474d-b222-61c62d15e636)
+![Paneer Search](https://github.com/user-attachments/assets/be420b46-db5a-4ec9-80f4-60d3bf257720)
+*Search results for "paneer"*
 
+![Loading Screen](https://github.com/user-attachments/assets/1f32e8c0-edb2-4cf7-bed9-4e484d176bef)
+*Loading Screen*
 
-# PART 2
-Client-Side Routing (URL Changes) & Recipe Detail </br>
+![No Result](https://github.com/user-attachments/assets/c565c01f-309a-474d-b222-61c62d15e636)
+*No result handling*
+
+### 📱 **Mobile Friendly**
+![Mobile View](https://github.com/user-attachments/assets/d54c8f3e-cca5-4cd2-b4dc-9565fa8e614f)
+*Fully responsive design*
+
+### 📖 **Recipe Details**
+- Dedicated recipe pages
+- Complete ingredient lists
+- Step-by-step instructions
+- Back to search navigation
+
+![Recipe View](https://github.com/user-attachments/assets/695f34bc-0fc9-4777-903c-8484291c5a16)
+*Search recipe view*
+
 The user is navigated to a dedicated page /recipe/52777</br>
-![image](https://github.com/user-attachments/assets/695f34bc-0fc9-4777-903c-8484291c5a16)
-![image](https://github.com/user-attachments/assets/8b4f6786-0867-453b-a2da-7f9b778c71c0) </br>
-Displaying recipe name, image, category, cuisine, ingredients and instructions</br>
-"Back to Search" Link is on the detail page that takes the user back to the home/search page
+![Recipe Dtetail](https://github.com/user-attachments/assets/8b4f6786-0867-453b-a2da-7f9b778c71c0) 
+*Display recipe name, image, category, cuisine, ingredients and instructions*</br>
+*Back to Search" Link is on the detail page that takes the user back to the home/search page*
 
-# PART 3
-In recipe detail page Add to Favorites button
-![image](https://github.com/user-attachments/assets/22362876-81df-4f9b-855d-69a4366bccc7)
+### ❤ **Favorites System**
+- Add/remove favorites
+- Persistent storage
+- Dedicated favorites page
+- Bulk management
 
-A separate page at favorites that displays a list of all the user's saved recipes
-![image](https://github.com/user-attachments/assets/6689d495-f572-4f9e-a3c6-4a48d95822a8)
+![Add Favorites](https://github.com/user-attachments/assets/22362876-81df-4f9b-855d-69a4366bccc7)
+*In recipe detail page Add to Favorites button*
+
+![Display favorites](https://github.com/user-attachments/assets/6689d495-f572-4f9e-a3c6-4a48d95822a8)
+*A separate page at favorites that displays a list of all the user's saved recipes*
 
 
-A button for Remove from Favorites
-![image](https://github.com/user-attachments/assets/314dd2b1-e983-486e-8969-c5b9fe133989)
+![Remove Favorites](https://github.com/user-attachments/assets/314dd2b1-e983-486e-8969-c5b9fe133989)
+*A button for Remove from Favorites*
 
 
-
+## 🛠 Tech-stack
+- **Frontend**: React, React Router
+- **State Management**: Context API + useReducer
+- **Storage**: localStorage
+- **API**: TheMealDB
+- **Styling**: CSS3 (Flexbox, Grid)
 
 
 
