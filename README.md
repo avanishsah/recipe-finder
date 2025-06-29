@@ -4,24 +4,24 @@ A beautiful, functional web application for discovering and saving your favorite
 ##  Getting Started
 
 1. **Clone the repository**
-   ```bash
+```bash
    git clone https://github.com/your-username/recipe-finder.git
    cd recipe-finder
-   ```
+```
 2. **Install dependencies**
 
-  ```bash
+```bash
   npm install
   Run the development server
 ```
 3. **Run the development server**
-  ```bash
+```bash
   npm start
 ```
 
 4. **Open in browser**
 ```text
-http://localhost:3000
+   http://localhost:3000
 ````
 ##  Features
 
